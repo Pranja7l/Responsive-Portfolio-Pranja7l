@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" sizes="32x32" href="PLOGO.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | PRANJA7L</title>
+  </head>
+  <body>
+ <header>
+  <div id="header">
+    <div class="container">
+      <nav>
+          <a href="index.html" class="logo">&lt;/PRANJA7L&gt;</a> 
+       <!-- <img src="/STATIC/IMAGES/logo.png" class="logo"> -->
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about" >About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects" >Projects</a></li>
+          <li><a href="#contact" >Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Fullstack Developer</p>
+        <h1>Hi, I'm <span>Pranjal Panthi</span> <br> from Nepal</h1>
+        <span id="element"></span>
+      </div>
+    </div>
+ </header>
+ <!-- ABOUT SECTION  -->
+ <div id="about">
+  <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+          <img src="me.png" class="user">
+        </div>
+      <div class="about-col-2">
+        <h1 class="sub-title"><span id="element1"></span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero pariatur ipsam placeat repellat quia eos facilis velit atque cum? Ab, accusantium, quam officia veritatis earum, necessitatibus rerum consequatur et pariatur doloribus harum! Voluptatem labore quo, saepe perspiciatis recusandae minus.</p>
+        
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI?UX</span><br>Lorem ipsum dolor sit amet.</li>
+            <li><span>Web Development</span><br>Fullstack Developer</li>
+            <li><span>App Development</span><br>consectetur adipisicing elit. Fugit, dolorum.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2021 - Present</span><br>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+            <li><span>2019 - 2021</span><br>Lorem ipsum dolor sit amet.</li>
+            <li><span>2016 - 2017</span><br>Lorem ipsum dolor sit.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>School</span><br>Triyog High School</li>
+            <li><span>College</span><br>Ullens College</li>
+            <li><span>University</span><br>Tribhuwan University(T.U)</li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END -->
+
+<!-- PROJECTS/SERVICES -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title"><span id="element2"></span></h1>
+    <div class="services-list">
+      <div>
+        <i class="fas fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sunt quia, eaque sit aliquid laboriosam.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fas fa-crop-alt"></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sunt quia, eaque sit aliquid laboriosam.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fab fa-app-store"></i>
+        <h2>App Development</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sunt quia, eaque sit aliquid laboriosam.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END -->
+
+<!-- portfolio -->
+<div id="projects">
+  <div class="container">
+    <h1 class="sub-title"><span id="element3"></span></h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="ss (1).png">
+        <div class="layer">
+          <h3>To Do List</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="https://prantodoja7l.netlify.app"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="ss (2).png">
+        <div class="layer">
+          <h3>Pssword Generator</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="https://pranpasswordgeneratorja7l.netlify.app"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="ss (3).png">
+        <div class="layer">
+          <h3>Weather Info</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="https://https://pranweatherja7l.netlify.app"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end -->
+
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fas fa-paper-plane"></i> pranjalpanthi707@gmail.com</p>
+        <p> <i class="fas fa-phone-square"></i> +977 - 9803448194</p>
+        <div class="social-logo">
+          <a href="https://facebook.com/pranja7l"
+          ><i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/ig_pranja7l"
+        ><i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://threads.net/@ig_pranja7l"
+      ><i class="fa-brands fa-threads"></i>
+    </a>
+    <a href="https://github.com/pranja7l"
+    ><i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <a href="WEBSITES.pdf" download class="btn btn2">Download Web Links</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Enter your Name" required>
+          <input type="number" name="Number" placeholder="Enter your Phone Number" required>
+          <input type="email" name="Email" placeholder="Enter your Email" required>
+          <textarea name="Feedback" rows="6" placeholder="Your Feedback"></textarea>
+          <button type="submit" class="btn btn2">Sumbit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end -->
+<!-- footer -->
+<footer>
+  <p class="copyright">
+    Copyright © https://pranportfolioja7l.netlify.app | All Rights Reserved
+  </p>
+  <p class="codedby">
+    Coded by <a href="https://instagram.com/ig_pranja7l">&lt;/pranja7l&gt;</a>
+  </p>
+</footer>
+<!-- end -->
+<div class="scripts">
+  <script src="script.js"></script>
+  <script src="form.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://kit.fontawesome.com/9f1cfcd917.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["I am a Web Developer.", "Passionate Singer." , "Video Editor." , "Gamer."],
+ typeSpeed: 50,
+ loop: true,
+});;
+    var typed = new Typed("#element1", {
+      strings: ["About Me!"],
+ typeSpeed: 100,
+ loop: true,
+});;
+    var typed = new Typed("#element2", {
+      strings: ["My Services!"],
+ typeSpeed: 100,
+ loop: true,
+});;
+    var typed = new Typed("#element3", {
+      strings: ["My Projects!"],
+ typeSpeed: 100,
+ loop: true,
+});;
+      </script>
+    </div>
+  </body>
+  </html>
+
+
+  
